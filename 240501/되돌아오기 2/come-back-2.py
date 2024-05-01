@@ -26,4 +26,4 @@ for i in n:
     move(i)
     if is_point(x,y):
         break
-print(elapse_time)
+print(ans)
