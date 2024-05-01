@@ -16,6 +16,7 @@ def move(word):
     elapse_time += 1
 
 def is_point(x, y):
+    global ans
     if x == 0 and y == 0:
         ans = elapse_time
         return True
