@@ -9,4 +9,7 @@ for i in range(1, m+1):
         if i >= coin[j] and dp[i-coin[j]] != -1:
             dp[i] = min(dp[i], dp[i-coin[j]] + 1)
 
-print(dp[m])
+if dp[m] == max_ans:
+    print("-1")
+else:
+    print(dp[m])
